@@ -10,7 +10,11 @@ AudioFile.py:
 audio_utilities.py:
 - linear_amplitude_to_dBFS(amplitude)
 - dBFS_to_linear_amplitude(dBFS)
-
+- resample_audio(audio_data, original_sr, target_sr)
+- mono_to_dual_mono(mono_signal)
+- normalize(tracks)
+- detect_audio_properties(audio_file):
+  
 audio_plots.py
 - plot_waveform(audio_data, sample_rate)
 - plot_fft_spectrum(left_freq, left_mag)
@@ -36,11 +40,7 @@ wave_gen.py:
 - sqr_gen(sample_rate, frequency, duration)
 
 **TODO:**
-- get_bit_detph
-- resample
-- get_num_channels
 - stereo_to_mono
-- mono_to_dual_mono
 - mono_to_stereo
 - bit_depth_conversion
 - dithering
