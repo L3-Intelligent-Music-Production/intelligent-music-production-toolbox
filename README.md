@@ -46,3 +46,7 @@ wave_gen.py:
 - dithering
 - peak_normalize
 - floating_point_normalization
+
+Extend the documentation following APIs standards.
+Homologate coding styles.
+Create examples in notebooks to demonstrate the usage of the repository.
