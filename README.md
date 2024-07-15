@@ -1,5 +1,6 @@
 # intelligent-music-production-toolbox
 A set of audio and midi utilities for music production in python.
+All functionalities are made for audio processing in python. You can try some of these code in notebooks as well.
 
 AudioFile.py:
   A class to store and process audio data
