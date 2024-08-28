@@ -40,6 +40,9 @@ wave_gen.py:
 - tri_gen(sample_rate, frequency, duration)
 - sqr_gen(sample_rate, frequency, duration)
 
+**Disclaimer**
+The code in this repository is tested using short-length audio files. Recommended, files under 1 minute.
+
 **TODO:**
 - stereo_to_mono
 - mono_to_stereo
